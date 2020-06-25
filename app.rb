@@ -16,6 +16,6 @@ class App < Sinatra::Base
    @session = session
   @session["item"] = params[:item]
   
-  @sessisessionons["item"]
+  @session["item"]
  end
 end
